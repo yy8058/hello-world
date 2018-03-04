@@ -11,4 +11,4 @@ git commit -m "first commit"
 git remote add origin https://github.com/yy8058/hello-world.git
 u设置本地仓库对应的远程github仓库的仓库文件。（即本地仓库与远程仓库的映射，设置一次即可，无需第2次设置）
 git push -u origin master
-把远程推车中的文件推送到远程github仓库中。(注：此次推送需要输入github的账号与密码，只在第一次连接时需要输入)
+把本地仓库推送到远程github仓库中。(注：第一次连接时，需要输入github的账号与密码)
