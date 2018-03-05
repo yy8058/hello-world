@@ -5,10 +5,10 @@ echo "# hello-world" >> README.md
 git init
 # 在当前文件夹建一个初始仓库（一开始是空的）
 git add README.md
-把文件夹的README.md放入git仓库推车中。
+# 把文件夹的README.md放入git仓库推车中。
 git commit -m "first commit"
-把推车中的文件放入git仓库，并为此次入库做个标签名为"first commit"。
+# 把推车中的文件放入git仓库，并为此次入库做个标签名为"first commit"。
 git remote add origin https://github.com/yy8058/hello-world.git
-u设置本地仓库对应的远程github仓库的仓库文件。（即本地仓库与远程仓库的映射，设置一次即可，无需第2次设置）
+# 设置本地仓库对应的远程github仓库的仓库文件。（即本地仓库与远程仓库的映射，设置一次即可，无需第2次设置）
 git push -u origin master
-把本地仓库推送到远程github仓库中。(注：第一次连接时，需要输入github的账号与密码)
+# 把本地仓库推送到远程github仓库中。(注：第一次连接时，需要输入github的账号与密码)
